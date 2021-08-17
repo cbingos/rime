@@ -1,0 +1,21 @@
+# default.custom.yaml
+# save it to: 
+#   ~/.config/ibus/rime  (linux)
+#   ~/Library/Rime       (macos)
+#   %APPDATA%\Rime       (windows)
+patch:
+#   speller/max_code_length: 4 # 最长4码
+#   speller/auto_select: true # 顶字上屏
+#   speller/auto_select_unique_candidate: true # 无重码自动上屏
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+        Caps_Lock: commit_code  # 用大写字母键进行切换，其它禁用
+        Shift_L: noop
+        Shift_R: noop
+        Control_L: noop
+        Control_R: noop
+  schema_list:
+    #- schema: luna_pinyin          # 朙月拼音
+    #- schema: luna_pinyin_simp     # 朙月拼音 简化字模式
+    - schema: wubi_pinyin          # 五笔拼音混合輸入
+    # - schema: pinyin_simp     # 朙月拼音 简化字模式
