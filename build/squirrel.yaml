@@ -1,16 +1,27 @@
 __build_info:
-  rime_version: 1.7.3
+  rime_version: 1.8.5
   timestamps:
-    squirrel: 1613228858
-    squirrel.custom: 1628344776
+    squirrel: 1675621991
+    squirrel.custom: 1687262651
 app_options:
-  com.apple.Terminal:
-    ascii_mode: true
-  com.microsoft.VSCode:
-    ascii_mode: false
+  com.qvacua.VimR:
     ascii_punct: true
+    vim_mode: true
+  net.kovidgoyal.kitty:
+    ascii_punct: true
+    vim_mode: true
+  nvim:
+    ascii_punct: true
+    vim_mode: true
+  org.vim.MacVim:
+    ascii_punct: true
+    vim_mode: true
+  vim:
+    ascii_punct: true
+    vim_mode: true
 chord_duration: 0.1
 config_version: 0.37
+keyboard_layout: default
 preset_color_schemes:
   google:
     author: "skoj <skoj@qq.com>"
@@ -193,4 +204,3 @@ style:
   line_spacing: 5
   spacing: 10
   text_orientation: horizontal
-us_keyboard_layout: false

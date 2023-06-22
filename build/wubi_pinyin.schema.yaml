@@ -1,14 +1,14 @@
 __build_info:
-  rime_version: 1.7.3
+  rime_version: 1.8.5
   timestamps:
-    default: 1613228859
-    default.custom: 1628311506
-    key_bindings: 1613228859
+    default: 1675621991
+    default.custom: 1641383748
+    key_bindings: 1675621991
     key_bindings.custom: 0
-    punctuation: 1613228859
+    punctuation: 1675621991
     punctuation.custom: 0
-    wubi_pinyin.custom: 1628311478
-    wubi_pinyin.schema: 1546584600
+    wubi_pinyin.custom: 1641383748
+    wubi_pinyin.schema: 1641383748
 abc_segmentor:
   extra_tags:
     - reverse_lookup
@@ -193,7 +193,7 @@ schema:
   description: |
     五筆字型86版＋漢語拼音混合輸入。
     碼表源自 ibus-table
-    
+
   name: "五笔·拼音"
   schema_id: wubi_pinyin
   version: 0.9
